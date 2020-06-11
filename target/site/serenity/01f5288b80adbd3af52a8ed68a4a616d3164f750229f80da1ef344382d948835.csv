@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Title of your feature","Title of your scenario","SUCCESS","2020-06-08T14:46:15.457-05:00[America/Bogota]","0.0","9.27"
+"Iniciar Sesion","Inicio de sesion exitoso","SUCCESS","2020-06-08T14:46:15.456-05:00[America/Bogota]","0.0","76.14"
+"Iniciar Sesion","Inicio de sesion exitoso segundo","SUCCESS","2020-06-08T14:47:32.327-05:00[America/Bogota]","0.0","65.58"
+"Registrar Usuario","Registro de usuario exitoso","SUCCESS","2020-06-08T14:47:34.654-05:00[America/Bogota]","0.0","10.99"

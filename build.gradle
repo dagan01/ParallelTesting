@@ -1,0 +1,43 @@
+
+apply plugin: 'java-library'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+    	mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.80")
+    }
+}
+
+dependencies {
+	implementation 'net.serenity-bdd:serenity-junit:2.0.80'
+	implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    implementation 'net.serenity-bdd:serenity-core:2.0.80'
+    implementation 'org.slf4j:slf4j-simple:1.7.7'
+    implementation 'com.google.guava:guava:23.0'
+}
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+test {
+//maxParallelForks = Runtime.runtime.availableProcessors().intdiv(2) ?: 1 
+maxParallelForks =3
+    ignoreFailures = true
+}
+
+// Continue asi falle alguna tarea de Gradle
+gradle.startParameter.continueOnFailure = true
+

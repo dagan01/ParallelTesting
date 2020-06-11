@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.guru99.gurubank.pruebas.runners.ParalelosRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-08T19:46:15" hostname="DESKTOP-95SD6QO" time="143.322">
+  <properties/>
+  <testcase name="runAllTests" classname="com.guru99.gurubank.pruebas.runners.ParalelosRunner" time="143.322"/>
+  <system-out><![CDATA[The text gotten with the driver is: I am an alert box!
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m10,098s
+
+
+2 Scenarios (?[32m2 passed?[0m)
+6 Steps (?[32m6 passed?[0m)
+2m23,210s
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Iniciar Sesion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Title of your feature
+[pool-3-thread-1] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Inicio de sesion exitoso
+-------------------------------------------------------------------(iniciar-sesion;inicio-de-sesion-exitoso)
+[pool-4-thread-1] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Title of your scenario
+-------------------------------------------------------------------(title-of-your-feature;title-of-your-scenario)
+jun 08, 2020 2:46:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+jun 08, 2020 2:46:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[pool-4-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[pool-4-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+[pool-3-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[pool-3-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 4508
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 48535
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+jun 08, 2020 2:46:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+jun 08, 2020 2:46:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1591645580.380][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645580.566][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645580.667][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645580.891][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645580.993][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.113][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.214][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.316][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.518][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.619][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.720][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645581.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.135][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.236][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.337][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.440][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.647][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.749][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.850][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645582.952][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.159][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.370][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.481][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.585][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645583.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[pool-4-thread-1] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Title of your scenario
+----------------------------------------------------------------------------
+[1591645650.907][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645651.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[pool-3-thread-1] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Inicio de sesion exitoso
+----------------------------------------------------------------------------
+[pool-3-thread-1] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Inicio de sesion exitoso segundo
+-------------------------------------------------------------------(iniciar-sesion;inicio-de-sesion-exitoso-segundo)
+jun 08, 2020 2:47:32 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[pool-3-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[pool-3-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 14538
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+jun 08, 2020 2:47:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1591645657.000][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.113][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.243][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.344][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.448][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.752][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.853][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645657.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645658.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1591645717.413][SEVERE]: Timed out receiving message from renderer: 0.100
+[pool-3-thread-1] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Inicio de sesion exitoso segundo
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

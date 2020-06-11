@@ -43,11 +43,11 @@ test {
 
 The logic is simple:
 + Use the line maxParallelForks = Runtime.runtime.availableProcessors().intdiv(2) ?: 1 if you want Gradle to check your available processors and use them for your tests
-+ Use maxParallelForks =[a number less or equal to the number of processors you have] if you want to specify how many exact processors Gradle can use. Obviously, the number should be less or equal to the total number of processors in the machine. This is not very recommenden because not all the processors are available for this, and this affect the performance of the execution.
++ Use maxParallelForks = 3 if you want to specify how many exact processors Gradle can use (in this example, I use three processors). Obviously, the number should be less or equal to the total number of processors in the machine. This is not very recommenden because not all the processors are available for this, and this affect the performance of the execution.
 
 ## Parallel testing with Selenium Grid and Serenity
 
-Well, we just need to configure one of the options mentioned so far (parallel testing with junit or gradle). Then, we just have to configure selenium grid inside the file serenity.properties:
+Well, we just need to configure one of the options mentioned so far (parallel testing with junit or gradle). Then, we just have to configure selenium grid inside the file [serenity.properties](../master/serenity.properties):
 
 ```
 webdriver.driver=remote

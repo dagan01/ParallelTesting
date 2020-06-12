@@ -57,3 +57,17 @@ webdriver.remote.os=WINDOWS
 ```
 
 And that's it! That was the configuration I used to succesfully execute my tests with Selenium Grid, and with everything you have read in this readme, you may have a basic idea of how to execute tests in parallel. I did these experiments for one friend whose executions lasted for around 8 hours. Now they only take 2 hours.
+
+# Excel Report
+
+So...I used this project again, it's like the perfect tool for parallel experiments with different things. This time, I was asked to develop a simple automation of a report in Excel. Just the logic and show how to use it. The code is probably not the best, but at least my client loved it and could use it as a base (or maybe did not even change it), and that's all that matters.
+
+## ExcelUtilities
+
+The class where all the magic happens is [here](../master/src/main/java/com/guru99/gurubank/pruebas/utilities/UtilidadesExcel.java). The code must be able to write in one Excel file, in different sheets and during parallel execution. With the following methods, all those conditions were achieved:
+
++ The method ```sobreescribirExcel``` initialize the workbook in the class. Of all the methods I have in UtilidadesExcel, this one is the first that must be executed. Also, this method writes the headers of the columns with the method ```createHeaderRow```.
++ The method ```agregarNuevaFilaDeDatos``` writes the data you want in the file and sheet you specify. This method is a little bit dirty (the file should be general...I think this could be a public static final in other class maybe, or an input from Cucumber).
++ "What if I told you I do not want to overwrite the data from previous executions?"...this is what justifies the existence of ```obtenerIndiceDeCeldaVacia```. Here we get the index where the method ```agregarNuevaFilaDeDatos``` should write the new data, without overwriting anything.
+
+And that's it! I performed a Parallel execution with JUnit, writing in two different sheets and everything was succesful. I still need to read about BufferedReaders and BufferedWrites, also about Input and Output Steams to understand everything that happens behind the stage and maybe improve this. But at least, this was more than perfect for the need the client had.

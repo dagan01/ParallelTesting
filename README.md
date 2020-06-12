@@ -71,3 +71,8 @@ The class where all the magic happens is [here](../master/src/main/java/com/guru
 + "What if I told you I do not want to overwrite the data from previous executions?"...this is what justifies the existence of ```obtenerIndiceDeCeldaVacia```. Here we get the index where the method ```agregarNuevaFilaDeDatos``` should write the new data, without overwriting anything.
 
 And that's it! I performed a Parallel execution with JUnit, writing in two different sheets and everything was succesful. I still need to read about BufferedReaders and BufferedWrites, also about Input and Output Steams to understand everything that happens behind the stage and maybe improve this. But at least, this was more than perfect for the need the client had.
+
+## Excel References
+
+1. [https://www.codejava.net/coding/how-to-read-excel-files-in-java-using-apache-poi](https://www.codejava.net/coding/how-to-read-excel-files-in-java-using-apache-poi)
+2. [https://www.codejava.net/coding/how-to-write-excel-files-in-java-using-apache-poi](https://www.codejava.net/coding/how-to-write-excel-files-in-java-using-apache-poi)

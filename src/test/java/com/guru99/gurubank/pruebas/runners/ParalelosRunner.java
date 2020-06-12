@@ -13,7 +13,7 @@ public class ParalelosRunner {
 
 	@Test
     public void runAllTests() {
-        Class<?>[] classes = {IniciarSesionRunner1.class,IniciarSesionRunner2.class,AlertaRunner.class};
+        Class<?>[] classes = {IniciarSesionRunner2.class,AlertaRunner.class};
  
         // ParallelComputer(true,true) will run all classes and methods
         // in parallel.  (First arg for classes, second arg for methods)

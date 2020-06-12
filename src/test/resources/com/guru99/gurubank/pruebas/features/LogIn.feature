@@ -1,5 +1,5 @@
 #language:es
-Característica: Inicio de sesion
+CaracterÃ­stica: Inicio de sesion
 
   Esquema del escenario: Inicios de sesion fallidos
     Dado que estoy en la pagina de inicio de GuruBank

@@ -58,6 +58,11 @@ webdriver.remote.os=WINDOWS
 
 And that's it! That was the configuration I used to succesfully execute my tests with Selenium Grid, and with everything you have read in this readme, you may have a basic idea of how to execute tests in parallel. I did these experiments for one friend whose executions lasted for around 8 hours. Now they only take 2 hours.
 
+## Selenium Grid References
+
+1. [An example video](https://www.youtube.com/watch?v=gFCnX23li2g)
+2. [The github of the project shown in reference 1](https://github.com/Specialize-Automation/Selenium_GRID_Configuration)
+
 # Excel Report
 
 So...I used this project again, it's like the perfect tool for parallel experiments with different things. This time, I was asked to develop a simple automation of a report in Excel. Just the logic and show how to use it. The code is probably not the best, but at least my client loved it and could use it as a base (or maybe did not even change it), and that's all that matters.
